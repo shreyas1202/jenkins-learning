@@ -11,10 +11,5 @@ pipeline{
                  echo"this is testing gor github"
             }
         }
-        stage('deploy'){
-            steps{
-                 echo"this is deployment"
-            }
-        }
     }
 }
