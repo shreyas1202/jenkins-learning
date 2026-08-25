@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                 echo"this is testing"
+                 echo"this is still testing"
             }
         }
         stage('deploy'){
